@@ -11,6 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "1.48.1",
-    "@types/node": "22.7.7"
+    "@types/luxon": "^3.4.2",
+    "@types/node": "22.7.7",
+    "luxon": "3.5.0"
   }
 }
