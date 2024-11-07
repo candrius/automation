@@ -10,5 +10,6 @@ them.
 - Performance testing for API:
   1. Stress test application to find system max users can handle.
   2. Load testing to check if application performance does not downgrade when feature scope growths over time.
+  3. Sometimes POST request returning 429 - this could mean that database cannot handle to many write requests, but this needs deeper investigation. 
 - Accessability testing for web page.
   1. As required by some laws, certain public sites needs to meet accessability rating if page meets WCAG levels. This could be also automated by a11y or other libraries.
